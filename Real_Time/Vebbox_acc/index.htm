@@ -14,9 +14,82 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="./Assets/Vebbox_Logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     
+    <nav>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col ps-5">
+                    <img src="./Assets/Vebbox_Logo.jpeg" alt="Vebbox" height="35px" width="35px">
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="inline"><button class="btn"><a href="#Home">Home</a></button></li>
+                        <li class="inline"><button class="btn"><a href="">View Students Details</a></button></li>
+                        <li class="inline"><button  class="btn"><a href="">Fees Details</a></button></li>
+                        <li class="inline"><button class="btn"><a href="">View Fees Details</a></button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col d-flex justify-content-center fs-5">Admin Login Panel</div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid" src="./Assets/img.jpg" alt="Login_to_Vebbox">
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col text-center mt-5">
+                            <i class="fa-sharp fa-solid fa-book-open-reader book"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="d-flex justify-content-center">Welcome To Vebbox Accounting!</h2>
+                            <p class="d-flex justify-content-center">Where You need to be True!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control mail" id="floatingInput" placeholder="name@example.com">
+                                        <div class="input-group-text">
+                                            <i class="fa-solid fa-at" style="color: #522da8;"></i>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="form-floating">
+                                    <div class="input-group">
+                                        <input type="password" class="form-control pass" id="floatingPassword" maxlength="8" onkeyup="sub()" placeholder="Password">
+                                        <div class="input-group-text">
+                                            <i class="fa-solid fa-lock" style="color: #522da8;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col b1">
+                                      <button type="submit" class="button login">Login</button>
+                                    </div>
+                                  </div>
+                              </form>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="./Js/bootstrap.bundle.js"></script>
     <script src="./Js/bootstrap.min.js"></script>
 </body>
