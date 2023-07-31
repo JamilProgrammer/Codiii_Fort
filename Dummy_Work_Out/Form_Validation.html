@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation using JS</title>
+</head>
+<body>
+    <form action="" name="form" method="post">
+        <label for="">Name : </label>
+        <input type="text" name="" id="name">
+        <button onclick="Click()">Submit</button>
+    </form>
+    <script>
+        function Click() {
+            var name = document.getElementById("name").value;
+            if(name == null || name == ""){
+                alert('U Bluddy....')
+                return false
+            }
+        }
+    </script>
+</body>
+</html>
